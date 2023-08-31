@@ -1,0 +1,12 @@
+{
+    "variables": [
+        "{{page-title}}",
+        {
+            "name": "{{page-description}}",
+            "help": "hey, this is a description"
+        },
+        "{{message-alert}}",
+        "{{folder-name}}"
+    ],
+    "isRelative": true
+}

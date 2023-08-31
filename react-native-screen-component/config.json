@@ -1,0 +1,31 @@
+{
+  "variables": [
+    {
+      "name": "{{component-name}}",
+      "help": "The name of the component"
+    }
+  ],
+  "expressions": {
+    "{{componentNameUpperWithSpace}}":{
+      "case": "upperWithSpace",
+      "variable": "{{component-name}}"
+    },
+    "componentNameUpper":{
+      "case": "upper",
+      "variable": "{{component-name}}"
+    },
+    "{{componentNameCamelCase}}":{
+      "case": "camel",
+      "variable": "{{component-name}}"
+    },
+    "{{componentNamePascal}}":{
+      "case": "pascal",
+      "variable": "{{component-name}}"
+    },
+    "{{componentNameKebab}}":{
+      "case": "kebab",
+      "variable": "{{component-name}}"
+    }
+  },
+  "isRelative": false
+}
